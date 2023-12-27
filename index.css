@@ -19,35 +19,35 @@ a {
     height: 100vh;
     background: url("../img/hino-image.jpg") no-repeat center bottom;
     background-size: cover;
-    text-align: center;
->h1{
-    font-family: font-family: 'Noto Serif JP', serif;;
+    text-align: center;  
+}
+.header h1 {
+    font-family: 'Noto Serif JP', serif;
     font-size:  60px;
     margin-bottom: 10px;
     color:darkslategray;
-}   
-}
+} 
 .gnav {
     width: 100%;
     height: auto;
     position: fixed;
     top: 0;
-    left: 0;
-    >ul {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-    }
-    >li {
-        height: 60px;
-    }
-    >a {
-        margin: 0 auto;
-        font-size: 20px;
-        color: blueviolet;
-        &:hover {
-            color: brown;
-        }
-    }
+    left: 0;   
+}
+.gnav ul {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.gnav li {
+    height: 60px;
+}
+.gnav a {
+    margin: 0 auto;
+    font-size: 20px;
+    color: blueviolet;
+}
+.gnav a:hover {
+    color: brown;
 }
